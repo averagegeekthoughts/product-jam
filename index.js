@@ -3,7 +3,7 @@ const button2 = document.getElementById('button2');
 
 button1.addEventListener("click", function changeColor(el) {
   document.body.style.backgroundColor = 'salmon';
-  document.body.style.backgroundColor = 'white';
+  document.body.style.color = 'white';
 });
 button2.addEventListener("click", function showHideText(el) {
   const textToHide = document.getElementById('header');
